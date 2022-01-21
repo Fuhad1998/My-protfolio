@@ -1,0 +1,17 @@
+.project-tac{
+    background-color: #1C2833;
+    color: white;
+
+
+}
+.link-btn{
+   color: black;
+    text-decoration: none;
+    background-color: rgb(40, 238, 245);
+    font-weight: 700;
+    
+
+}
+.link-btn:hover{
+    color: black;
+}

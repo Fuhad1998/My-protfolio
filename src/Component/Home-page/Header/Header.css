@@ -1,0 +1,11 @@
+.header-link{
+    text-decoration: none;
+    color: rgb(40, 238, 245);
+    font-weight: 400;
+}
+.header-link:hover{
+    color: rgb(40, 238, 245);
+}
+.header-name{
+    color: rgb(40, 238, 245);
+}
