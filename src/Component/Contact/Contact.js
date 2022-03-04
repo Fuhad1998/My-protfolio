@@ -1,4 +1,5 @@
 import React from 'react';
+import './Contact.css';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -58,14 +59,14 @@ const Contact = () => {
 
                 </div>
                 <div className="col-md-6 col-12 ">
-                    <form onSubmit={sendEmail}>
+                    <form onSubmit={sendEmail} className="text-field">
                         <input className="m-2 w-50 px-2" type="text" placeholder="Name" />
                         <br />
                         <input className="m-2 w-50 px-2" type="text" placeholder="Subject" />
                         <br />
                        <textarea className="m-2 w-50 px-2" name="" id="" cols="30" rows="5" placeholder="message"></textarea>
                         <br />
-                        <input className="w-50 " type="submit" value="Send Email" />
+                        <input className="w-50 mb-2 " type="submit" value="Send Email" />
                     </form>
                 </div>
           

@@ -1,8 +1,8 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import banner1 from "../../img/Capture (1).jpg";
-import banner2 from "../../img/Capture.jpg";
-import banner3 from "../../img/Capture.png";
+import banner1 from "../../img/project-1/New Project (6).jpg";
+import banner2 from "../../img/project-1/New Project (7).jpg";
+import banner3 from "../../img/project-1/New Project (8).jpg";
 import Project2 from "../Project2";
 import Project3 from "../Project3";
 import "./Project.css";
