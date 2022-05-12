@@ -2,7 +2,11 @@ import React from 'react';
 import './Contact.css';
 import emailjs from 'emailjs-com';
 
+
 const Contact = () => {
+   
+
+
     function sendEmail (e){
         e.preventDefault();
 
@@ -15,11 +19,15 @@ const Contact = () => {
     }
     return (
     <div className="container p-3 mt-3 rounded" style={{backgroundColor: "rgb(40, 238, 245)"}}>
+        
         <h1 className="">Contact</h1>
             <div className="row ">
             
             
                 <div className="col-md-6 col-12 ">
+
+
+                  
                     <table>
                         <tbody>
                            <tr>
@@ -43,7 +51,7 @@ const Contact = () => {
                             <h2><i class="fab fa-whatsapp"></i></h2>
                             </td>
                             <td>
-                                <h4  >01715497198</h4>
+                                <h2  >01715497198</h2>
                             </td>
                            </tr>
                            <tr>
@@ -51,7 +59,7 @@ const Contact = () => {
                             <h2><i className="fas fa-phone  "></i></h2>
                             </td>
                             <td>
-                                <h4  >01715497198</h4>
+                                <h2  >01715497198</h2>
                             </td>
                            </tr>
                         </tbody>
