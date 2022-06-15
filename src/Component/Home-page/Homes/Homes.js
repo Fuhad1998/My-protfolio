@@ -124,7 +124,7 @@ const Homes = () => {
           <span className="m-5">
             <a
               className="btn-resume p-2 "
-              href="https://drive.google.com/file/d/1YDS76nyo4LfgFclVFqA9H5lPy7n-pR-x/view?usp=sharing"
+              href="https://drive.google.com/file/d/1upURmC_m7NNoKvcLiefhWzE_eXF6sWrg/view?usp=sharing"
               target="_blank"
             >
               Download Resume
