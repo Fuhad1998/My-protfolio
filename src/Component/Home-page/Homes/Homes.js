@@ -1,20 +1,21 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import "./Homes.css";
+import Typewriter from "typewriter-effect";
 
 const Homes = () => {
-    const particlesInit = (main) => {
-        console.log(main);
-    
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-      };
-    
-      const particlesLoaded = (container) => {
-        console.log(container);
-      };
+  const particlesInit = (main) => {
+    // console.log(main);
+
+    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
   return (
     <div style={{ backgroundColor: "#1C2833" }} className="control-practical ">
-     <Particles
+      <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -38,8 +39,6 @@ const Homes = () => {
                 duration: 2,
                 opacity: 0.8,
                 size: 40,
-                
-                
               },
               push: {
                 quantity: 4,
@@ -60,7 +59,6 @@ const Homes = () => {
               enable: true,
               opacity: 0.5,
               width: 1,
-              
             },
             collisions: {
               enable: true,
@@ -70,7 +68,7 @@ const Homes = () => {
               enable: true,
               outMode: "bounce",
               random: false,
-              speed: 2,
+              speed: 1,
               straight: false,
             },
             number: {
@@ -93,26 +91,40 @@ const Homes = () => {
           },
           detectRetina: true,
         }}
-        style={{height: '400px', width: "400px"}}
+        style={{ height: "400px", width: "400px" }}
       />
 
-      <div
-        className="container d-flex justify-content-center align-items-center p-5 "
-        
-      >
+      <div className="container d-flex justify-content-center align-items-center p-5 ">
         <div className="mt-5 title">
-        <div className="text-container">
-        <h2 className="text-white">Hi, This is </h2>
-          <h2 className="text-white">Fuwad Hossian</h2>
-          <h1 className=" text-title">Front End Developer</h1>
+          <div className="">
+            <h2 className="text-white title_text">Hi, This is </h2>
+            <h2 className="text-white title_text">Fuwad Hossian</h2>
+
+            <h1 className="text-title">
+            <Typewriter
+                
+                options={{
+                  strings: [
+                    "Web Developer",
+                    "Full Stack Developer",
+                    "Front-end Developer",
+                    "React Js Developer",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
+           
+            {/* <h1 className=" text-title">Front End Developer</h1>
           <h1 className=" text-title">Web Developer</h1>
-          <h1 className=" text-title">Full Stack Developer</h1>
-        </div>
+          <h1 className=" text-title">Full Stack Developer</h1> */}
+          </div>
           <br />
           <span className="m-5">
             <a
               className="btn-resume p-2 "
-              href="https://drive.google.com/file/d/1JPMvJm3JZf5v6J21FvMA8ST81pOtjzmM/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YDS76nyo4LfgFclVFqA9H5lPy7n-pR-x/view?usp=sharing"
               target="_blank"
             >
               Download Resume

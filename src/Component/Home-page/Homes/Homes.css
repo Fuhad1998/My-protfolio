@@ -8,30 +8,13 @@
 .btn-resume:hover{
     color: white;
 }
-/* .wrapper .text-container{
-    overflow: hidden;
-} */
+
 
 .text-title{
     color: rgb(40, 238, 245);
+    
     display: flex;
     justify-content: left;
-  
 }
 
-/* .text-title::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid red;
-    animation: typing 1.5s steps(18) infinite;
-    background-color: #1C2833;
-}
-@keyframes typing{
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-} */
+

@@ -1,63 +1,49 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
-import banner1 from "../img/project-3/Capture-svg (1).jpg";
-import banner2 from "../img/project-3/New Project (6).jpg";
-import banner3 from "../img/project-3/New Project (7).jpg";
+import { Card } from "react-bootstrap";
+import banner1 from "../img/projuct-img/New-Project-13.jpg";
+
 
 const Project3 = () => {
   return (
-    <div className="container mt-3 bg-white rounded">
-      <div className="row ">
-        <div className="col-md-6 col-12">
-          <Carousel fade>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 h-100"
-                src={banner1}
-                alt="First slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 h-100"
-                src={banner2}
-                alt="Second slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100 h-100"
-                src={banner3}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-          </Carousel>
+    <div className="container  bg-white rounded py-4">
+    <div className="row">
+      <div className="col-md-6 col-xs-12 col-sm-12">
+        <Card className="border-0 " style={{ width: "20rem" }}>
+          <Card.Img variant="top" src={banner1} />
+        </Card>
+      </div>
+      <div className="col-md-6 col-xs-12 col-sm-12 text-container">
+        <h1>Trek Bicycle</h1>
+        <p className="project-detail">
+          This is a bicycle website. users can buy bicycle from this website. Also user can see their orders and user can delate their orders and update their orders. Users can give their review and they can take Technical Support. And implement admin dashboard if admin visit this website they can add a products and can delate products, and make an admin. Admin can see all orders.
+
+        </p>
+
+        <h3 className="project-tacno">Technology used</h3>
+        
+        <li className="technology">React js</li>
+        <li className="technology">Javascript</li>
+        <li className="technology">React Router Dome</li>
+        <li className="technology">Node js</li>
+        <li className="technology">MongoDb</li>
+        <li className="technology">Firebase</li>
+        <li className="technology">Heroku</li>
+        <li className="technology">Bootstrap</li>
+        <li className="technology">Html</li>
+        <li className="technology">Css</li>
+        <div className="text-start pt-3 ">
+        <span> <a className="link-btn p-2  rounded" href="https://bicycle-sales-website.web.app/" target="_blank">Live-side</a></span>
+
+        <span> <a className="link-btn p-2 rounded" href="https://github.com/Fuhad1998/bicycle-sales-web-cline-site" target="_blank">Client-Code</a></span>
+
+        <span> <a className="link-btn p-2 rounded" href="https://github.com/Fuhad1998/bicycle-sales-web-server-site" target="_blank">Server-Code</a></span>
         </div>
-        <div className="col-md-6 col-12">
-          <h1 className="">Modern Care Hospital</h1>
-          <h5 className="text-start">
-            This is a health related websites. There are different type of
-            health services like Eye Care, Dental Care, Medicine, etc. Users can
-            take these services. They can see the most popular doctors.
-          </h5>
-          <div className="d-flex">
-            <h5 className="project-tac mx-2 p-2 rounded">React.js</h5>
-            <h5  className="project-tac mx-2 p-2 rounded">React Route</h5>
-            <h5  className="project-tac mx-2 p-2 rounded">Bootstrap</h5>
-            
-          </div>
-          <div className="d-flex">
-          <h5  className="project-tac mx-2 p-2 rounded">CSS</h5>
-            <h5  className="project-tac mx-2 p-2 rounded">Netlify</h5>
-          </div>
-          <div className="text-start p-5 ">
-          <span> <a className="link-btn p-2  rounded" href="https://elated-hamilton-79b7a5.netlify.app/" target="_blank">Live-side</a></span>
-          <span> <a className="link-btn p-2 rounded" href="https://github.com/Fuhad1998/Health-Care-Related-websit" target="_blank">Github</a></span>
-          </div>
-        </div>
+       
       </div>
     </div>
+  </div>
   );
 };
 
 export default Project3;
+

@@ -13,6 +13,9 @@ import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
 import Blogs from './Component/Blogs/Blogs';
 import Skills from './Component/Skills/Skills';
+import Details from './Component/Details/Details';
+import Project2 from './Component/Project2';
+import Project3 from './Component/Project3';
 
 function App() {
   return (
@@ -40,6 +43,15 @@ function App() {
         </Route>
         <Route path="/skills">
           <Skills></Skills>
+        </Route>
+        <Route path="/details">
+          <Details></Details>
+        </Route>
+        <Route path="/project2">
+          <Project2></Project2>
+        </Route>
+        <Route path="/project3">
+          <Project3></Project3>
         </Route>
       </Switch>
       <Footer></Footer>
